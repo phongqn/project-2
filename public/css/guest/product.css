@@ -1,0 +1,112 @@
+.label-multiple {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6F6F6F;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    color: gray;
+}
+
+.product-item .pi-pic ul li a {
+    padding: 7px 12px 5px 11px;
+}
+
+.fw-brand-check li {
+    list-style: none;
+}
+
+#pagination ul {
+    display: flex;
+}
+
+#pagination ul li {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    background-color: #d19c97;
+}
+
+#pagination ul li a {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#pagination ul li.active a {
+    color: white;
+    cursor: pointer;
+}
+
+.paginationjs-pages {
+    display: flex;
+    justify-content: center;
+}
+
+.item-color {
+    color: black;
+    border: 1px solid #ebebeb;
+    padding: 10px 10px 10px 10px;
+    font-weight: 700;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+}
+
+.color-active {
+    background-color: #e7ab3c;
+}
+
+.sc-item {
+    margin-right: 2px;
+}
+
+.sc-item label {
+    width: auto !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sc-item label {
+    font-size: 10px;
+    color: #252525;
+    font-weight: 500;
+    height: 40px;
+    width: 47px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.sc-item label.active {
+    background-color: #f2f2f2;
+}
+
+.notData {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.img-product {
+    height: 15rem;
+}
